@@ -34,5 +34,12 @@ npm test
 ```
 ## Tecnologias
 
-* [React] (https://create-react-app.dev/)- libreria Frontend de JavaScript
+* [React](https://create-react-app.dev/) - libreria Frontend de JavaScript
+* [React TypeScript](https://create-react-app.dev/docs/adding-typescript/) - Conjunto de librerias para introducir TypesCript en CRA
+* [Redux](https://redux.js.org/) - Tecnologia para la gestion del estado en la aplicación
+* [Google Maps API](https://developers.google.com/maps) - API de Google Maps
+* [React Testing Library](https://developers.google.com/maps) - Herramienta de test funcionales de React
 
+## Autor
+
+* **Roberto Gonzalez Camejo** - [rgonca](https://github.com/rgonca)
