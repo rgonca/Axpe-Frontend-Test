@@ -24,7 +24,7 @@ Una vez terminada la instalacíon es posible ejecutar la applicación con el com
 npm start
 ```
 En el caso de que no se ejecutase automaticamente vaya la la dirección _http://localhost:3000/_ en la barra de direcciones.
-
+Para facilitar el uso de la app se ha sacado el archivo _.env_ de el de _.gitignore_ para que se tenga acceso a la apiKey de Google Maps.
 ## Test
 
 Para ejecutar los test de la aplicación es necesario introducir el comando:
