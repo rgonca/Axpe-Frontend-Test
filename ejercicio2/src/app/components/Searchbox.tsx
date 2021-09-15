@@ -1,15 +1,15 @@
-import { useState, useRef } from "react";
-import { StandaloneSearchBox, Autocomplete } from "@react-google-maps/api";
-import ReactGoogleAutocomplete from "react-google-autocomplete";
+import { CSSProperties } from "react"
+import ReactGoogleAutocomplete from "react-google-autocomplete"
+
 const SearchBox = ({ onPlaceSelected }: any) => {
-    const style = {
+    const style: CSSProperties = {
         position: 'fixed',
         minWidth: 300,
         zIndex: 10,
         top: 80,
         left: '50%',
         transform: 'translate(-50%, -50%)',
-        padding: 10, border: '1px solid black',
+        padding: 10, border: '1px solid #000000',
         borderRadius: 8,
         outline: 'none'
     }
@@ -17,17 +17,7 @@ const SearchBox = ({ onPlaceSelected }: any) => {
         <div>
             <ReactGoogleAutocomplete
                 onPlaceSelected={onPlaceSelected}
-                style={{
-                    position: 'fixed',
-                    minWidth: 300,
-                    zIndex: 10,
-                    top: 80,
-                    left: '50%',
-                    transform: 'translate(-50%, -50%)',
-                    padding: 10, border: '1px solid black',
-                    borderRadius: 8,
-                    outline: 'none'
-                }}
+                style={style}
             />
         </div>
     )

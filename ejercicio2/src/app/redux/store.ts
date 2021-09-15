@@ -1,5 +1,7 @@
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
+
 import mapsReducer from './maps/maps.reducer';
+
 export const store = configureStore({
   reducer: {
     maps: mapsReducer
