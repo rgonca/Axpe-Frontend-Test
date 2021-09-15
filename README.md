@@ -27,7 +27,7 @@ En el caso de que no se ejecutase automaticamente vaya la la dirección _http://
 
 ## Test
 
-Para ejecutar los teste de la aplicación es necesario introducir el comando:
+Para ejecutar los test de la aplicación es necesario introducir el comando:
 
 ```
 npm test
