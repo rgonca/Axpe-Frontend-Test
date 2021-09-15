@@ -5,6 +5,7 @@
   "dependencies": {
     "@react-google-maps/api": "^2.2.0",
     "@reduxjs/toolkit": "^1.6.1",
+    "@testing-library/jest-dom": "^5.14.1",
     "@types/jest": "^27.0.1",
     "@types/node": "^16.9.1",
     "@types/react": "^17.0.21",
