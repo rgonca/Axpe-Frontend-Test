@@ -24,6 +24,7 @@ Una vez terminada la instalacíon es posible ejecutar la applicación con el com
 npm start
 ```
 En el caso de que no se ejecutase automaticamente vaya la la dirección _http://localhost:3000/_ en la barra de direcciones.
+
 Para facilitar el uso de la app se ha sacado el archivo _.env_ de el de _.gitignore_ para que se tenga acceso a la apiKey de Google Maps.
 ## Test
 
@@ -35,7 +36,7 @@ npm test
 ## Tecnologias
 
 * [React](https://create-react-app.dev/) - libreria Frontend de JavaScript
-* [React TypeScript](https://create-react-app.dev/docs/adding-typescript/) - Conjunto de librerias para introducir TypesCript en CRA
+* [React TypeScript](https://create-react-app.dev/docs/adding-typescript/) - Conjunto de librerias para introducir TypeScript en CRA
 * [Redux](https://redux.js.org/) - Tecnologia para la gestion del estado en la aplicación
 * [Google Maps API](https://developers.google.com/maps) - API de Google Maps
 * [React Testing Library](https://developers.google.com/maps) - Herramienta de test funcionales de React
