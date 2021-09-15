@@ -1,0 +1,7 @@
+const mapsTypes = {
+    ADD_MARKER_START: "ADD_MARKER_START",
+    ADD_MARKER_SUCCESS: "ADD_MARKER_SUCCESS",
+    ADD_MARKER_ERROR: "ADD_MARKER_ERROR"
+}
+
+export default mapsTypes
